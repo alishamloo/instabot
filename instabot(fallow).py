@@ -55,8 +55,8 @@ class instagramBot:
             except Exception as e :
                 time.sleep(3)
 
-usernamee='scorpion_112233'
-passwordd='09375947271'
+usernamee=''
+passwordd=''
 ig = instagramBot(usernamee,passwordd)
 ig.login()
 
